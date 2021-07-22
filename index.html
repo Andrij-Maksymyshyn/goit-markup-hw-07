@@ -17,7 +17,7 @@
             crossorigin="anonymous"
             referrerpolicy="no-referrer"
         />
-        <link rel="stylesheet" href="./css/styles.css" />
+        <link rel="stylesheet" href="./css/main.min.css" />
     </head>
     <body>
         <!--Хедер-->
@@ -98,59 +98,61 @@
             <section class="plus">
                 <div class="container plus-container">
                     <h2 class="visually-hidden">Плюси нашої компанії</h2>
-                    <ul class="plus-list">
-                        <li class="list plus-list-menu">
-                            <div class="link plus-list-link">
-                                <svg class="plus-icon">
+                    <ul class="plus-menu">
+                        <li class="list plus-menu__list">
+                            <div class="link plus-menu__box">
+                                <svg class="plus-menu__icon">
                                     <use
                                         href="./images/sprite.svg#icon-antenna"
                                     ></use>
                                 </svg>
                             </div>
-                            <h3 class="plus-title">Внимание к деталям</h3>
-                            <p class="plus-text">
+                            <h3 class="plus-menu__title">Внимание к деталям</h3>
+                            <p class="plus-menu__text">
                                 Идейные соображения, а также начало повседневной
                                 работы по формированию позиции.
                             </p>
                         </li>
-                        <li class="list plus-list-menu">
-                            <div class="link plus-list-link">
-                                <svg class="plus-icon">
+                        <li class="list plus-menu__list">
+                            <div class="link plus-menu__box">
+                                <svg class="plus-menu__icon">
                                     <use
                                         href="./images/sprite.svg#icon-clock"
                                     ></use>
                                 </svg>
                             </div>
-                            <h3 class="plus-title">Пунктуальность</h3>
-                            <p class="plus-text">
+                            <h3 class="plus-menu__title">Пунктуальность</h3>
+                            <p class="plus-menu__text">
                                 Задача организации, в особенности же рамки и
                                 место обучения кадров влечет за собой.
                             </p>
                         </li>
-                        <li class="list plus-list-menu">
-                            <div class="link plus-list-link">
-                                <svg class="plus-icon">
+                        <li class="list plus-menu__list">
+                            <div class="link plus-menu__box">
+                                <svg class="plus-menu__icon">
                                     <use
                                         href="./images/sprite.svg#icon-diagram"
                                     ></use>
                                 </svg>
                             </div>
-                            <h3 class="plus-title">Планирование</h3>
-                            <p class="plus-text">
+                            <h3 class="plus-menu__title">Планирование</h3>
+                            <p class="plus-menu__text">
                                 Равным образом консультация с широким активом в
                                 значительной степени обуславливает.
                             </p>
                         </li>
-                        <li class="list plus-list-menu">
-                            <div class="link link plus-list-link">
-                                <svg class="plus-icon">
+                        <li class="list plus-menu__list">
+                            <div class="link link plus-menu__box">
+                                <svg class="plus-menu__icon">
                                     <use
                                         href="./images/sprite.svg#icon-astronaut"
                                     ></use>
                                 </svg>
                             </div>
-                            <h3 class="plus-title">Современные технологии</h3>
-                            <p class="plus-text">
+                            <h3 class="plus-menu__title">
+                                Современные технологии
+                            </h3>
+                            <p class="plus-menu__text">
                                 Значимость этих проблем настолько очевидна, что
                                 реализация плановых заданий.
                             </p>
@@ -162,40 +164,44 @@
             <section class="works">
                 <div class="container work-container">
                     <h2 class="second-title-work">Чем мы занимаемся</h2>
-                    <ul class="work-list">
-                        <li class="list work-item">
+                    <ul class="work-menu">
+                        <li class="list work-menu__list">
                             <img
                                 src="./images/box1.jpg"
                                 width="370"
                                 height="294"
                                 alt="Робота на десктопі №1"
                             />
-                            <div class="work-box">
-                                <h3 class="work-title">
+                            <div class="work-menu__box">
+                                <h3 class="work-menu__title">
                                     Десктопные приложения
                                 </h3>
                             </div>
                         </li>
-                        <li class="list work-item">
+                        <li class="list work-menu__list">
                             <img
                                 src="./images/box2.jpg"
                                 width="370"
                                 height="294"
                                 alt="Робота на десктопі №2"
                             />
-                            <div class="work-box">
-                                <h3 class="work-title">Мобильные приложения</h3>
+                            <div class="work-menu__box">
+                                <h3 class="work-menu__title">
+                                    Мобильные приложения
+                                </h3>
                             </div>
                         </li>
-                        <li class="list work-item">
+                        <li class="list work-menu__list">
                             <img
                                 src="./images/box3.jpg"
                                 width="370"
                                 height="294"
                                 alt="Робота на десктоп і№3"
                             />
-                            <div class="work-box">
-                                <h3 class="work-title">Дизайнерские решения</h3>
+                            <div class="work-menu__box">
+                                <h3 class="work-menu__title">
+                                    Дизайнерские решения
+                                </h3>
                             </div>
                         </li>
                     </ul>
@@ -204,7 +210,7 @@
 
             <section class="our-team">
                 <div class="container team-container">
-                    <h2 class="second-title-team">Наша команда</h2>
+                    <h2 class="second-title-work">Наша команда</h2>
                     <ul class="team-list">
                         <li class="list team-item">
                             <img
@@ -214,10 +220,8 @@
                                 alt="Фото №1"
                             />
                             <div class="team-description">
-                                <h3 class="third-title united">
-                                    Игорь Демьяненко
-                                </h3>
-                                <p class="third-text united" lang="en">
+                                <h3 class="third-title">Игорь Демьяненко</h3>
+                                <p class="third-text" lang="en">
                                     Product Designer
                                 </p>
                                 <ul class="team-contacts">
@@ -284,8 +288,8 @@
                                 alt="Фото №2"
                             />
                             <div class="team-description">
-                                <h3 class="third-title united">Ольга Репина</h3>
-                                <p class="third-text united" lang="en">
+                                <h3 class="third-title">Ольга Репина</h3>
+                                <p class="third-text" lang="en">
                                     Frontend Developer
                                 </p>
                                 <ul class="team-contacts">
@@ -352,12 +356,8 @@
                                 alt="Фото №3"
                             />
                             <div class="team-description">
-                                <h3 class="third-title united">
-                                    Николай Тарасов
-                                </h3>
-                                <p class="third-text united" lang="en">
-                                    Marketing
-                                </p>
+                                <h3 class="third-title">Николай Тарасов</h3>
+                                <p class="third-text" lang="en">Marketing</p>
                                 <ul class="team-contacts">
                                     <li class="list team-contacts-list">
                                         <a class="team-contacts-link" href=""
@@ -422,12 +422,8 @@
                                 alt="Фото №4"
                             />
                             <div class="team-description">
-                                <h3 class="third-title united">
-                                    Михаил Ермаков
-                                </h3>
-                                <p class="third-text united" lang="en">
-                                    UI Designer
-                                </p>
+                                <h3 class="third-title">Михаил Ермаков</h3>
+                                <p class="third-text" lang="en">UI Designer</p>
                                 <ul class="team-contacts">
                                     <li class="list team-contacts-list">
                                         <a class="team-contacts-link" href=""
@@ -489,7 +485,7 @@
             </section>
             <section class="clients">
                 <div class="container clients-container">
-                    <h2 class="clients-title">Постоянные клиенты</h2>
+                    <h2 class="second-title-work">Постоянные клиенты</h2>
                     <ul class="client-menu">
                         <li class="list client-list">
                             <a class="client-link pasivecolor" href=""
@@ -609,12 +605,12 @@
                     </address>
                 </div>
                 <div class="our-networks">
-                    <h3>присоединяйтесь</h3>
+                    <h3 class="join-title">присоединяйтесь</h3>
                     <ul class="network-contacts">
                         <li class="list network-list">
-                            <a class="link-network" href=""
+                            <a class="team-contacts-link link-network" href=""
                                 ><svg
-                                    class="icon-footer-color"
+                                    class="icon-main-color icon-footer-color"
                                     width="20"
                                     height="20"
                                 >
@@ -625,9 +621,9 @@
                             </a>
                         </li>
                         <li class="list network-list">
-                            <a class="link-network" href=""
+                            <a class="team-contacts-link link-network" href=""
                                 ><svg
-                                    class="icon-footer-color"
+                                    class="icon-main-color icon-footer-color"
                                     width="20"
                                     height="20"
                                 >
@@ -638,9 +634,9 @@
                             </a>
                         </li>
                         <li class="list network-list">
-                            <a class="link-network" href=""
+                            <a class="team-contacts-link link-network" href=""
                                 ><svg
-                                    class="icon-footer-color"
+                                    class="icon-main-color icon-footer-color"
                                     width="20"
                                     height="20"
                                 >
@@ -651,9 +647,9 @@
                             </a>
                         </li>
                         <li class="list network-list">
-                            <a class="link-network" href=""
+                            <a class="team-contacts-link link-network" href=""
                                 ><svg
-                                    class="icon-footer-color"
+                                    class="icon-main-color icon-footer-color"
                                     width="20"
                                     height="20"
                                 >
@@ -666,7 +662,7 @@
                     </ul>
                 </div>
                 <div class="sign-for-mailing">
-                    <h3>Подпишитесь на рассылку</h3>
+                    <h3 class="join-title">Подпишитесь на рассылку</h3>
                     <form class="mailing">
                         <label>
                             <input
